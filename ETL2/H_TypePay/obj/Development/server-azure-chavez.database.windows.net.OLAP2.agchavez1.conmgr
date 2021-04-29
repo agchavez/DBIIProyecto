@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="server-azure-chavez.database.windows.net.OLAP2.agchavez1"
+  DTS:DTSID="{BD706CC3-7620-4816-BD43-A6B0E032F86C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=server-azure-chavez.database.windows.net;User ID=agchavez;Initial Catalog=OLAP2;Provider=SQLNCLI11.1;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYzTnCJ8vT0aiuvJit4ZWcAAAAAACAAAAAAAQZgAAAAEAACAAAAC0ESwJ62ZNdo77qqEhaPp8YJ9SwfuvuvgApssDBvIYFAAAAAAOgAAAAAIAACAAAAB38gYIdbsXfZowJoV/s8ZQI0tXvYZWNmiZ1f+ESXaI+4AAAADwCHHrm7PUBr3ejfqABYjFm7pdkcpH5pnf1QJw/2y4MbMKu0EckrlvMzZ8Z1ze9p/jSH/sLOfqrgvEcjMCNPOun5+GTbNtK2RzxbE8YylySnbhFuiWvkdVFYjhWbaPdXJvIhmL7IhfBCL/W0rWFPFORyeSJuaitp7nYetMI7cArUAAAAAgV+XZEQC3S092be/OrO8/moPN9plGed77f2QtY8nnm+NcfYCOn2mnFWPsxoPUy/ixWxS8L7lCcT6oWHkPKxwy</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

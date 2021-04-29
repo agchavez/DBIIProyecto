@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="tcp_server-azure-chavez.database.windows.net,1433.OLAPAPI.agchavez"
+  DTS:DTSID="{4F6F8EF7-A4CA-49BF-AC72-D9FBFBFE1409}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=tcp:server-azure-chavez.database.windows.net,1433;User ID=agchavez;Initial Catalog=OLAPAPI;Persist Security Info=True;Application Name=SSIS-MovieETL-{4F6F8EF7-A4CA-49BF-AC72-D9FBFBFE1409}tcp:server-azure-chavez.database.windows.net,1433.OLAPAPI.agchavez;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYzTnCJ8vT0aiuvJit4ZWcAAAAAACAAAAAAAQZgAAAAEAACAAAACYkAaJQB6eKCcl38efOB85O439hC9kxsI/KK6Hi2YPEAAAAAAOgAAAAAIAACAAAABHCfdb2yVju9Ira5R7ZgwlWYO7SUPq7CGegWuOBLHTWYAAAADKZCoTFbrGp4AqZp8r/EME5js6s6AVAMMbh6Iikrm3yg6k4U4urzPOYhy05Itvxh5lw6Z40IDq41b79Q5NpAbnnrnlGPD/vjEhSF58a75ZGnXz0MchELX8OEJAFjCzB9hz+wjxeBq8SGBADwkJFDBaVIbnn2vt6uUZhUQO9Eqb30AAAADNrjN5t0oO3WseAu4Qmn22QcsaWKqedRlnQm0gy96rDSnWOtJcQkhwmZDzfcrdlP7VIwVymURG3JbysyK2VTh2</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

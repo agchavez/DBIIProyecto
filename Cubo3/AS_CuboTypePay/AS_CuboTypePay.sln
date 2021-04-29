@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1401
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AS_CuboTypePay", "AS_CuboTypePay\AS_CuboTypePay.dwproj", "{6768F2E6-F08E-44B1-A5FD-F3D54489C23C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6768F2E6-F08E-44B1-A5FD-F3D54489C23C}.Development|Default.ActiveCfg = Development
+		{6768F2E6-F08E-44B1-A5FD-F3D54489C23C}.Development|Default.Build.0 = Development
+		{6768F2E6-F08E-44B1-A5FD-F3D54489C23C}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06EC2BD0-393D-431D-9C48-E4D01A337761}
+	EndGlobalSection
+EndGlobal

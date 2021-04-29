@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1401
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AS_Cubo_HVentas", "AS_Cubo_HVentas\AS_Cubo_HVentas.dwproj", "{0C3E6D63-BF8C-408A-8F9E-E12480327FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3E6D63-BF8C-408A-8F9E-E12480327FD6}.Development|Default.ActiveCfg = Development
+		{0C3E6D63-BF8C-408A-8F9E-E12480327FD6}.Development|Default.Build.0 = Development
+		{0C3E6D63-BF8C-408A-8F9E-E12480327FD6}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3BB6F1D-7F59-4F5B-A83B-0A1A9771172A}
+	EndGlobalSection
+EndGlobal

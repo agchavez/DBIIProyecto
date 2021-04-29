@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "H_TypePay", "H_TypePay.dtproj", "{4568C5CD-8D1F-4D9A-AC68-FC1F32AE22D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4568C5CD-8D1F-4D9A-AC68-FC1F32AE22D0}.Development|Default.ActiveCfg = Development
+		{4568C5CD-8D1F-4D9A-AC68-FC1F32AE22D0}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68E3963E-83F4-44FF-BFD1-6A5967754D5C}
+	EndGlobalSection
+EndGlobal

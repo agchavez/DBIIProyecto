@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MovieCountri</Database>
+    <Server>LAPTOP-0N0LOR5S\MS_SQLSERVER</Server>
+    <ConnectionString>Data Source=LAPTOP-0N0LOR5S\MS_SQLSERVER;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>q9j0ziUzTkWpcU4FBe7KYP+YQMY=28/04/2021 14:59:2428/04/2021 14:59:24</TimeStamp>
+        <ID>
+          <String>OLAPAPI</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>iOHBmtYafwOF9DhUtQQB4oljVJA=28/04/2021 15:00:3528/04/2021 14:59:49</TimeStamp>
+        <ID>
+          <String>OLAPAPI</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ldkIkErD1FkKUpQAXm3PhPtxpJQ=28/04/2021 15:00:3528/04/2021 15:00:34</TimeStamp>
+        <ID>
+          <String>Dim Contries</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Jgaw6CZA4F/3HrNHPFKl181gD7s=28/04/2021 15:00:3528/04/2021 15:00:34</TimeStamp>
+        <ID>
+          <String>Dim Productor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jrKIRTI3pWJ7YAKlhfNMbAJSfqw=28/04/2021 15:00:3528/04/2021 15:00:35</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>7Fcq0s+LDWJyvDOk9CXdjC6sTeI=28/04/2021 17:37:3128/04/2021 15:00:34LGsFX7+Xy4ofNVT1yBDimBUp8A8=28/04/2021 15:00:3528/04/2021 15:00:34</TimeStamp>
+        <ID>
+          <String>OLAPAPI</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>DW6sSrgXRQTidcC62ULAoKeAKEo=28/04/2021 14:52:5428/04/2021 14:52:54</TimeStamp>
+      <ID>
+        <String>MovieCountri</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-04-28T23:38:29.616667Z</LastDeployed>
+</DeploymentSnapshot>
