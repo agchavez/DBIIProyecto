@@ -9,8 +9,8 @@ var faker = require('faker');
 var randomName = faker.name.findName(); 
 
 const dbConfig = {
-    user: 'agchavez',
-    password: 'Chavez_325AC',
+    user: '',
+    password: '',
     server: 'server-azure-chavez.database.windows.net', // You can use 'server-azure-chavez.database.windows.net\\instance' to connect to named instance
     database: 'MovieTheater2',
     port: 1433,
